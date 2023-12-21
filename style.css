@@ -84,4 +84,53 @@ a {
   text-align: left;
 }
 
+section#links {
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section#links h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section#links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section#links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+section#links a {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #337ab7;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #286090;
+  }
+}
+
+section#links a[href="https://github.com/hsynercn"] {
+  background-color: #007bff;
+}
+
+section#links a[href="https://medium.com/@huscanercan"] {
+  background-color: #008CBA;
+}
+
+section#links a[href="https://www.linkedin.com/in/huseyin-can-ercan/"] {
+  background-color: #0077B5;
+}
+
+
 /* Add more styling as needed */
